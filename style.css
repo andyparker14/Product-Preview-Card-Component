@@ -1,0 +1,100 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.content {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  width: 700px;
+  height: 500px;
+}
+
+.left {
+  width: 50%;
+  height: 500px;
+  margin-right: 40px;
+}
+
+.cover-photo {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 350px;
+  height: 500px;
+}
+
+.right {
+
+}
+
+.brandname {
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 8px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.gabriel-content {
+  font-family: 'Fraunces', serif;
+  font-size: 33px;
+}
+
+.p-content {
+  margin-right: 65px;
+}
+
+.descript {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: hsl(228, 12%, 48%);
+}
+
+.price-content {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+  margin-right: 15px;
+}
+
+.line-price {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  margin-top: 33px;
+
+}
+
+.bold-price {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.icon-button {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px;
+  width: 270px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icon-button:hover {
+  transform: scale(0.95);
+}
+
+svg {
+  margin-right: 6px;
+}
